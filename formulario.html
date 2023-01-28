@@ -1,0 +1,229 @@
+
+
+<!-- block content (div)
+*action
+*method (get - padrão) -->
+<!-- 
+<form action=""method="post">
+    <fieldset name="contato">
+        <legend>Preencha o formulário de contato</legend>
+    </fieldset>
+</form>
+<Button type="button" name="" class="" id=""> Limpar</Button>
+<Button>Enviar</Button>
+</Label> -->
+
+<!-- Label
+    *Associar e identificar um ou mais tag de entrada de dados
+    *Ajuda bastante na acessibilidade
+
+    Atributos:
+    -for
+    *Usado para fazer a conexão com outros tipos de elementos de formulários -->
+
+
+
+<!--     
+<form action=""method="post">
+    <fieldset name="contato">
+        <legend>Preencha o formulário de contato</legend>
+    </fieldset>
+</form>
+
+
+</Label>
+    <label>
+        Nome:
+        <input type="text" id="nome">
+    </label>
+
+    <Label>Idade:</Label>
+    <input type="number" id="age"> -->
+<!-- 
+    <datalist>
+        *Lista de valores com sugestões para algum elemento input
+        *Usuério poderá selecionar um dos valores ou colocar novos valores. -->
+
+    <!-- <form action=""method="post">
+        <fieldset name="contato">
+            <legend>Preencha o formulário de contato</legend>
+        </fieldset>
+
+        <datalist id="prof-list">
+            <option>Luan</option>
+            <option>Janifer</option>
+            <option>Regis</option>
+        </datalist>
+        <input type="text" list="prof-list" placeholder="Escolha um professor">
+    
+    
+    </form> -->
+
+<!--Input text-->
+    <form action=""method="post" enctype="multipart/form-data">
+        <fieldset name="contato">
+            <legend>Trabalando com inputs</legend>
+            <!--Input text-->
+            <!-- <input 
+            type="text"
+            placeholder="Preencha seu nome"
+            size="30"
+            minlength="04"
+            maxlength="20"
+            title="Preencha o dado"
+            readonly
+            > -->
+
+<!--Input number-->
+    <!-- <input 
+            type="number"
+            size="30"
+            minlength="04"
+            maxlength="20"
+            title="Preencha o dado"
+            > -->
+<!--Input e-mail-->
+    <!-- <input 
+            type="email"
+            size="30"
+            title="Preencha seu email"
+            required
+            > -->
+
+ <!--Input senha-->
+    <!-- <input 
+            type="password"
+            size="30"
+            minlength="8"
+            maxlength="15"
+            title="Preencha sua senha"
+            required -->
+
+ <!--Input senha-->
+    <!-- <input 
+            type="password"
+            size="30"
+            title="Sua senha precisa ser hexadecimal"
+            pattern="{0-9a-fA-F}{4,8}">
+            <required
+            inputmode="numeric" -->
+
+<!-- Input hidden
+    <input 
+            type="hidden"
+            value="Eu estou escondido" -->
+
+
+<!-- Input collor -->
+    <!-- <input   
+    <input type="color"> -->
+
+<!-- Input date (data)-->
+    <!-- <input   
+    <input type="date"> -->
+
+<!-- Input datetime-local (data com horário) -->
+<!-- <input   
+<input type="datetime-local"> -->
+
+<!-- Input month (ano e mês)-->
+<!-- <input   
+<input type="month"> -->
+
+<!-- Input week (dias da semana)-->
+<!-- <input   
+<input type="week"> -->
+
+<!-- Input time (horário)-->
+<!-- <input   
+<input type="time"> -->
+
+
+<!-- <label for="área">
+    Seu interesse maior é por qual área?
+</label>
+
+<div>
+    <input
+    type="checkbox" 
+    name="interesse" 
+    id="backend" 
+    value="Front-End Luan Monteiro"> 
+    <label for="frontend">Front-End Luan Monteiro</label>
+
+    <input 
+    type="checkbox" 
+    name="interesse" 
+    id="backend" 
+    value="Back-End Regis Santos"> 
+    <label for="backend">Back-End Regis Santos</label>
+
+    <input 
+    type="checkbox" 
+    name="interesse" 
+    id="Design UI/UX" 
+    value="Design UI/UX Janifer Vieira">
+    <label for="designuiux">Design UI/UX Janifer Vieira</label>
+</div>
+<br>
+<br>
+<br> -->
+
+<!-- Interesse = front-end Luan Monteiro, Back-end Regis Santos e Design UI/UX Jenifer Vieira -->
+
+<!-- Radio Button -->
+<!-- <h3>Deseja receber notificações da Be.Academy</h3>
+<label for="yes">Sim</label>
+<input type="radio" id="yes" name="notification" value="yes">
+
+<label for="no">Não</label>
+<input type="radio" id="no" name="notification" value="no"> -->
+
+
+
+<!-- SELECT
+Elemento de formulário capa de criar uma lista de opções a serem selecionadas, DropDown -->
+
+<label for="teacher">Professores:</label>
+<select name="select-teacher" id="teacher" multiple> 
+    <option value="">Selecione um professor</option>
+    <option value="Luan Santos">Luan Santos</option>
+    <option value="Moacir Garcia">Moacir Garcia</option>
+    <option value="Jenifer Vieira">Jenifer Vieira</option>
+    <option value="Regis Eduardo">Regis Eduardo</option>
+    
+   <!-- * Multiple com o CTRL selecionado, seleciona mais de um -->
+
+   <input 
+   type="search"
+   name=""
+   title=""
+   placeholder="Faça uma pesquina"
+   size="24"
+   pattern="`[0-9]{0,3}"
+   title="Busque por id de até 3 dígitos"
+   required
+   >
+    
+ <!-- Manipulando arquivos com o file    
+        * Usuário poderá fazer um upload de 1 oi mais arquivos de acordo com a extensão-->
+        <!-- *enctype="multipart/form-data no formulário autoriza fazer donwoad de arquivos -->
+        
+    <input 
+    type="file"
+    value=""
+    accept="image/*"
+    multiple
+    name=""
+    id=""
+>
+
+
+   
+</select>
+<br>
+<button type="submit">Enviar </button>
+      
+     
+         </fieldset>
+    </form>  

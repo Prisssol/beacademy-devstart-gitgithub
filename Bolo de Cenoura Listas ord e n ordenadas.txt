@@ -1,0 +1,36 @@
+!DOCTYPE html
+html lang=pt-br
+head
+    meta charset=UTF-8
+    meta http-equiv=X-UA-Compatible content=IE=edge
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleBolo de Cenouratitle
+    h1Bolo de Cenourah1
+    h2Ingredientesh2
+!--Lista não Ordenada (não correto)--
+    li3 Cenouras médias (250g)li
+    li4 ovosli
+    li12 xícara de óleoli
+    li25 xícara de farinha de trigoli
+    li2 xícara de açúcarli
+    li1 colher de sopa de fermento em póli
+!--Lista não ordenada (correto)--
+    ul
+    li3 Cenouras médias (250g)li
+    li4 ovosli
+    li12 xícara de óleoli
+    li25 xícara de farinha de trigoli
+    li2 xícara de açúcarli
+    li1 colher de sopa de fermento em póli
+    ul
+
+
+
+ !--Lista Ordenada--   
+ olli3 Cenouras médias (250g)li
+    li4 ovosli
+    li12 xícara de óleoli
+    li25 xícara de farinha de trigoli
+    li2 xícara de açúcarli
+    li1 colher de sopa de fermento em póli
+ol

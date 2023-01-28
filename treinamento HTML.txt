@@ -1,0 +1,36 @@
+<!--
+
+    *Abertura
+    *Fechamento
+    *Conteúdo
+    *Elementos
+    *Elemento vazio
+
+    -->
+
+    <p tabindex="1">Um Conteúdo</p>
+    <h1 tabindex="2"> Eu sou um título</h1>
+
+    <!--Tag com auto fechamento - Elemento vazio-->
+        
+    <!--
+        Atributos HTML
+        *Iformações Extras
+        *Configurações*Boolean (verdadeiro ou Falso)
+    -->
+    <img tabindex="3" src="" alt="" class="" title="" />
+    <input type="text" disabled>
+<!--
+    Atributos globais mais utilizados
+    
+    *class
+    *hidden 
+    *tittle
+    *id
+    *tabindex
+    *style
+        *contenteditable
+-->
+<p tabindex="4" title="Um tílulo"> Olá, eu sou um parágrafo =)</p>
+<p style="color: aqua;">Olá, eu sou um parágrafo =)</p>
+<p contenteditable>Olá, eu sou um parágrafo =)</p>
