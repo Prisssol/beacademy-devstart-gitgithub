@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Shorthand and Margin</title>
+
+     <style>  
+        *{
+            margin: 0;
+            padding: 0
+            ;
+
+        }
+
+        h1{
+        /* background:green; 
+        font-size: 48px;
+        font-weight: bold;
+        font-style: italic; */
+            font: italic 100 32px 'arial', sans-serif;
+        }
+
+        .box {
+            background: coral;
+            /* margin shorthand
+            margin-top: 31px;
+            margin-right: 32px;
+            margin-left: 33px;
+            margin-bottom: 34px;
+             */
+            margin: 31px 32px 33px 34px  ;
+        }
+
+        .box-2 {
+            background: yellowgreen;
+        }
+
+        .box-3 {
+            background: blue;
+        }
+    
+    </style> 
+</head>
+<body>
+    <!--Recurso usado para agrupar propriedades, sendo assim,
+        sua escrita ficará mais curta
+    -->
+    <div class="box">
+        <h1>
+            Título 1
+        </h1>
+
+    </div>
+
+    <div class="box-2">
+        <h1>
+            Título 2
+        </h1>
+
+    <div class="box-3">
+         <h1>
+            Título 3
+         </h1>
+    
+     </div>
+
+    </div>
+
+</body>
+</html> 
